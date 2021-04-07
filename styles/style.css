@@ -1,0 +1,78 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} /*seletor universal*/
+
+body{
+    background-color: aquamarine;
+    font: 100%;
+    width: 1520px;
+    margin: auto;
+}
+
+header{
+    background: linear-gradient(aqua, aquamarine);
+    height: 80px;
+    padding: 10px;
+}
+
+#id-logo {
+    float: left;
+}
+
+header h1 {
+    color: blueviolet;
+}
+
+h1, h6, footer {
+    text-align: center;
+}
+
+section article {
+    float: left;
+    width: 35%;
+    padding: 20px;
+}
+
+article + aside {
+    float: right;
+    width: 58%;
+}
+
+footer {
+    clear: both;
+}
+
+.cardCategoria {
+    float: left;
+    height: 300px;
+    width: 250px;
+    background-color: rgba(0, 255, 255, 0.363);
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border: 1px 2px;
+    border-style: solid;
+    border-color: blueviolet;
+} /*seletor de classe*/
+
+a:link {
+    color:blueviolet;
+}
+
+a:visited {
+    color:  tomato;
+}
+
+a:hover {
+    color: azure;
+}
+
+@media (max-width: 900px) {
+    body, header, footer {
+        width: 100%;
+        height: auto;
+    }
+} /*media query*/
